@@ -1,0 +1,33 @@
+
+.user-data {
+	/* gap: 25px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 350px;
+
+}
+
+.user-data h3 {
+	width: 200px;
+}
+
+.user-data span {
+	padding-top: 8px;
+}
+
+.stat-card {
+	padding: 3px 8px;
+	font-size: 12px;
+	border-radius: 5px;
+	color: white;
+	height: 20px;
+}
+
+.val-stat {
+	background-color: green;
+}
+
+.not-val-stat {
+	background-color: rgb(252, 57, 57);
+}

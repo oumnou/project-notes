@@ -1,0 +1,104 @@
+
+.container header {
+	width: 80%;
+	/* max-width: 900px; */
+	/* border: 1px solid red; */
+	/* display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 3%;
+	align-items: center; */
+	display: flex;
+	justify-content: space-between;
+	padding: 18px 20px 18px 20px;
+	color: var(--bl-color);
+	background-color: var(--bck-bg);
+	box-shadow: 0 2px 10px rgb(225, 225, 225);
+	border-radius: 15px;
+	/* border: solid 1px red; */
+}
+
+.logo-identity {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 10px;
+	gap: 20px;
+	align-items: center;
+	width: 50%;
+}
+
+.logo-identity img {
+	width: 85px;
+	height: 85px;
+}
+
+.logo-slogon {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logo-slogon h2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.logo-slogon span {
+	font-size: 12px;
+}
+
+nav {
+	/* border: 1px solid red; */
+	display: flex;
+	align-items: center;
+	width: 20%;
+	justify-content: space-around;
+	gap: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	box-shadow: 0 2px 10px rgb(225, 225, 225);
+	transition: transform 0.4 ease;
+}
+
+nav a:hover {
+	transform: scale(1.03);
+}
+
+.list-btn {
+	border-radius: 5px;
+	padding: 8px 12px;
+	color: white;
+	font-weight: 600;
+	border: 1px solid rgb(244, 138, 32);
+	color: rgb(244, 138, 32);
+
+}
+
+.auth-btn {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	/* border: 1px solid black; */
+}
+
+.auth-btn a {
+	border-radius: 5px;
+	padding: 8px 12px;
+	/* color: white; */
+	font-weight: 600;
+}
+
+.log-btn {
+	/* background-color: #1e71ed; */
+	border: 1px solid #1e71ed;
+	color:#1e71ed;
+}
+
+.sign-btn {
+	border: 1px solid rgb(244, 138, 32);
+	color: rgb(244, 138, 32);
+}

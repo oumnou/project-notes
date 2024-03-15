@@ -1,0 +1,58 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "nom": "Marouane BENBAJJA",
+      "tele": "069-103-4771",
+      "adresse": "Kassbah, Marrakech, yes",
+      "email": "marouanebenbajja@gmail.com"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "nom": "Oumaima Nouini",
+      "tele": "069-133-4405",
+      "adresse": "Sidi Youb, Marrakech",
+      "email": "oumaimanouni08@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "id": "yes@gmail.com",
+      "login": "yes@gmail.com",
+      "password": "no",
+      "isAdmin": true
+    },
+    {
+      "id": "ol@gfm.com",
+      "login": "ol@gfm.com",
+      "password": "dfasdf",
+      "isAdmin": true
+    },
+    {
+      "id": "mar@ben.com",
+      "login": "mar@ben.com",
+      "password": "oumnou",
+      "isAdmin": false
+    },
+    {
+      "id": "oum@nou.com",
+      "login": "oum@nou.com",
+      "password": "marben",
+      "isAdmin": false
+    },
+    {
+      "id": "ok@ok.com",
+      "login": "ok@ok.com",
+      "password": "ok.ok",
+      "isAdmin": false
+    },
+    {
+      "id": "okay@okay.com",
+      "login": "okay@okay.com",
+      "password": "okay",
+      "isAdmin": true
+    }
+  ]
+}
